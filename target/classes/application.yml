@@ -1,0 +1,10 @@
+spring:  activemq:    broker-url: tcp://localhost:61616
+
+outbound:
+  endpoint: USER.PROCESSIND.D
+
+jaxb:
+  package: com.az.consumer.model
+
+###### Bellow property only required for consumer (ActiveMQ Topic) ######
+#spring.jms.pub-sub-domain=true

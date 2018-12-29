@@ -1,0 +1,4 @@
+com\az\consumer\model\User.class
+com\az\publisher\JmsPublisherApplication.class
+com\az\publisher\config\JmsPublisherConfig.class
+com\az\publisher\component\PublisherComponent.class
